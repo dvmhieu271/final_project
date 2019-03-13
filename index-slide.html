@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./images/slide-1.jpg" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-2.jpg" style="width:100%">
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-3.jpg" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-4.jpg" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-5.png" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-6.jpg" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-7.jpg" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="./images/slide-8.jpg" style="width:100%">
+        <!-- put your caption here -->
+        <div class="text">caption</div>
+      </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </body>
+
+  <script>
+  //declares the slideIndex variable to represent the current slide
+    var slideIndex;
+    // functional jaw showing slides
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+
+      slides[slideIndex].style.display = "block";
+      dots[slideIndex].className += " active";
+      //next slide
+      slideIndex++;
+      //final slide change to first slide
+      if (slideIndex > slides.length - 1) {
+        slideIndex = 0
+      }
+      //auto slide after 5s
+      setTimeout(showSlides, 5000);
+    }
+    //first sldie default
+    showSlides(slideIndex = 0);
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  </script>
+</html>
