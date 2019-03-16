@@ -2,43 +2,279 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="css/support.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="./scripts/support.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <div id="Header">
+     <div id="header">
+      <img src=".//images/logobana.jpg" alt="logo" />
+     </div>
+    </div>
   </head>
   <body>
-    <p>How can I buy tickets?</p>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./introduction.html">Introduction</a></li>
+      <li><a href="./support.html">Support</a></li>
+    </ul>
 
-    <p>– Direct purchases at automatic ticket booths and kiosks on Ba Na Hills</p>
-    <p>– Online booking via website <a href="https://ticket.sunworld.vn">https://ticket.sunworld.vn</a></p>
-    <p>– Purchase through travel agencies</p>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="./images/slide-1.jpg" style="width:100%">
+      </div>
 
-    <p>What are the ticket fares of Sun World Ba Na Hills?</p>
-    <p>– Ticket fare of Ba Na Hills for visitors:</p>
-    <p>• VND700,000/grown-up</p>
-    <p>• VND550,000/child (1m – 1.4m in height)</p>
-    <p>– Ticket fare for Danang locals:</p>
-    <p>• VND400,000/grown-up</p>
-    <p>• VND300,000/child (1m – 1.4m in height)</p>
-    <p>– Children who stand over 1.4m are subject to grown-up fare. Children below 1m in height are exempt from ticket fare.</p>
+      <div class="mySlides fade">
+        <img src="./images/slide-2.jpg" style="width:100%">
+      </div>
 
-    <p>Note:</p>
-    <p>– Fares include entry ticket of the complex</p>
-    <p>– Fares include 10% of VAT</p>
-    <p>– Fares include most games in our Fantasy Park: 105 games and the Legendary Knight (tube slide); Hiking train to Debay Wine Cellar and entry to Le Jardin D’Amour gardens, Golden Bridge.</p>
-    <p>– Fares exclude entry to the Wax Museum: VND100,000/grown-up, Teddy bear grips and Fantasy Park indoor sports.</p>
+      <div class="mySlides fade">
+        <img src="./images/slide-3.jpg" style="width:100%">
+      </div>
 
-    <p>What are include in ticket fares</p>
-    <p>• Fares include entry ticket to the complex</p>
-    <p>• Fares include 10% of VAT</p>
-    <p>• Fares include most games in our Fantasy Park: 105 games and the Legendary Knight (tube slide); Hiking train to Debay Wine Cellar and entry to Le Jardin D’Amour gardens.</p>
-    <p>• Fares exclude entry to the Wax Museum: VND100,000/grown-up, Teddy bear grips and Fantasy Park indoor sports.</p>
+      <div class="mySlides fade">
+        <img src="./images/slide-4.jpg" style="width:100%">
+      </div>
 
-    <p>How can I get more information about tickets?</p>
-    <p>Please contact Hotline: 0905 766 777 or 0905 753 777 for detailed advice.</p>
+      <div class="mySlides fade">
+        <img src="./images/slide-5.jpg" style="width:100%">
+      </div>
 
-    <p>How to use online tickets bought via website ticket.sunworld.vn?</p>
-    <p>After successfully booking and paying ticket via wesite ticket.sunworld.vn, the system will automatically send digital ticket(s) to your email. At the entry, you just present the digital ticket(s) to checkers at the checkpoint.</p>
+      <div class="mySlides fade">
+        <img src="./images/slide-6.jpg" style="width:100%">
+      </div>
 
-    <p>What is the business course of Ba Na cable cars?</p>
-    <p>Ba Na cable cars are operated on five routes: Suoi Mo – Ba Na, Debay – Morin, Toc Tien Waterfall – L’Indochine, Hoi An – Marseille and Bordeaux – Louvre. Capacity 6,000 passengers/hour and open between 7.30am and 9pm on all weekdays.</p>
+      <div class="mySlides fade">
+        <img src="./images/slide-7.jpg" style="width:100%">
+      </div>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <h2><b><u>SUPPORT</u></b></h2>
+
+    <div class="panel-group" id="accordion">
+      <h3>Tickets</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">How can I buy tickets?</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Direct purchases at automatic ticket booths and kiosks on Ba Na Hills</p>
+            <p>– Online booking via website <a href="https://ticket.sunworld.vn">https://ticket.sunworld.vn</a></p>
+            <p>– Purchase through travel agencies</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What are the ticket fares of Sun World Ba Na Hills?</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Ticket fare of Ba Na Hills for visitors:</p>
+            <ol>
+              <p>• VND700,000/grown-up</p>
+              <p>• VND550,000/child (1m – 1.4m in height)</p>
+            </ol>
+            <p>– Ticket fare for Danang locals:</p>
+            <ol>
+              <p>• VND400,000/grown-up</p>
+              <p>• VND300,000/child (1m – 1.4m in height)</p>
+            </ol>
+            <p>– Children who stand over 1.4m are subject to grown-up fare. Children below 1m in height are exempt from ticket fare.</p>
+            <p>Note:</p>
+            <p>– Fares include entry ticket of the complex</p>
+            <p>– Fares include 10% of VAT</p>
+            <p>– Fares include most games in our Fantasy Park: 105 games and the Legendary Knight (tube slide); Hiking train to Debay Wine Cellar and entry to Le Jardin D’Amour gardens, Golden Bridge.</p>
+            <p>– Fares exclude entry to the Wax Museum: VND100,000/grown-up, Teddy bear grips and Fantasy Park indoor sports.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What are include in ticket fares?</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Fares include entry ticket to the complex</p>
+            <p>– Fares include 10% of VAT</p>
+            <p>– Fares include most games in our Fantasy Park: 105 games and the Legendary Knight (tube slide); Hiking train to Debay Wine Cellar and entry to Le Jardin D’Amour gardens.</p>
+            <p>– Fares exclude entry to the Wax Museum: VND100,000/grown-up, Teddy bear grips and Fantasy Park indoor sports.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">How can I get more information about tickets?</a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Please contact Hotline: 0905 766 777 or 0905 753 777 for detailed advice.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">How to use online tickets bought via website ticket.sunworld.vn?</a>
+          </h4>
+        </div>
+        <div id="collapse5" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– After successfully booking and paying ticket via wesite ticket.sunworld.vn, the system will automatically send digital ticket(s) to your email. At the entry, you just present the digital ticket(s) to checkers at the checkpoint.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">What is the business course of Ba Na cable cars?</a>
+          </h4>
+        </div>
+        <div id="collapse6" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Ba Na cable cars are operated on five routes: Suoi Mo – Ba Na, Debay – Morin, Toc Tien Waterfall – L’Indochine, Hoi An – Marseille and Bordeaux – Louvre. Capacity 6,000 passengers/hour and open between 7.30am and 9pm on all weekdays.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Service</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Is there any harmful health effect of such glaring height differences? Who are not recommended for cable cars?</a>
+          </h4>
+        </div>
+        <div id="collapse7" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Given great height differences, low air pressure, diluted air and diminishing oxygen density, visitors should walk slow and keep breathing slowly to keep your health in check. Visitors with cardiovascular diseases, elevated blood pressure, respiratory diseases, etc., pregnant women and children should consider their health status before taking a cable car.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Does the management board offer security of personal belongings?</a>
+          </h4>
+        </div>
+        <div id="collapse8" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– The complex has a checker room for visitors at the entry gate. The checker room is available for use until the end of our normal business course.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">What is the business course of Ba Na cable cars?</a>
+          </h4>
+        </div>
+        <div id="collapse9" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>– Ba Na cable cars are operated on five routes: Suoi Mo – Ba Na, Debay – Morin, Toc Tien Waterfall – L’Indochine, Hoi An – Marseille and Bordeaux – Louvre. Capacity 6,000 passengers/hour and open between 7.30am and 9pm on all weekdays.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Experience</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">What are existing bonus programs on Ba Na Hills in 2018?</a>
+          </h4>
+        </div>
+        <div id="collapse10" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>Night Combo (available from July 10th to December 31st, 2018, applied to customers visiting Ba Na after 16:00 daily):<p>
+            <p>– Combo 1 (Standard): Full service fee of VND550,000/guest</p>
+            <p>Bonuses include cable car entry ticket; commuting fees, dinner & a liter of German drought beer</p>
+            <p>– Combo 2 (Premium): from VND3,000,000/guest</p>
+            <p>Bonuses include Combo 1 + 01 standard hotel room at Mercure Bana Hills French Village.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Food and Restaurant</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">What are the listed food prices in Ba Na Hills?</a>
+          </h4>
+        </div>
+        <div id="collapse11" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>Food prices listed in Sun World Ba Na Hills are subject to your menu options. Restaurant charge a wide range of popular and premium options (from VND50,000/guest to VND350,000/guest).<p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">Where can I eat?</a>
+          </h4>
+        </div>
+        <div id="collapse12" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>SWBNH has a system of gourmet restaurants that can meet all your culinary needs. Information about our restaurant system can be found at here.<p>
+          </div>
+        </div>
+      </div>
+
+      <h3>Commuting - Transport</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">Does the complex offer any shuttle buses for visitors?</a>
+          </h4>
+        </div>
+        <div id="collapse13" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>At the moment, Sun World Ba Na Hills doesn’t offer pick-up services during daytime. Pick-up services are only available for guests using “Night Combo” (visiting Ba Na after 16:00 daily).<p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">How long does it take to commute from the downtown of Danang City to Sun World Ba Na Hills?</a>
+          </h4>
+        </div>
+        <div id="collapse14" class="panel-collapse collapse out">
+          <div class="panel-body">
+            <p>It takes visitors who travel by bus round half an hour to commute from the downtown of Danang City to Sun World Ba Na Hills.<p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
