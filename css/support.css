@@ -1,39 +1,64 @@
 ul {
   list-style-type: none;
   margin: 0,0,0,35;
-  padding: 0;
   overflow: hidden;
-  background-color: #ffb3b3;
+  background-color: #F65E54;
+  box-shadow: 5px 5px 5px #666;
+  -moz-box-shadow: 5px 5px 5px #666;
+  -webkit-box-shadow: 5px 5px 5px #666;
+  margin-right: 5px;
+  padding: 5px;
 }
 
 li {
   float: left;
+  text-decoration: none;
+}
+
+h4:hover a:hover {
+  text-decoration: none;
 }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 16px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: unset;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  padding: 20px;
+
+}
+a:hover{
+  text-decoration: none;
 }
 
-div#accordion {
+.carousel .carousel-control {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+/* div#accordion {
   padding-left: 70px;
   padding-right: 70px;
-}
+  text-decoration: none;
+} */
 
 div#Header {
  width:100%;
  text-align:center;
-}
-
-body {
-  background-image:url("../images/good.jpg");
+ text-decoration: none;
 }
 
 h2 {
@@ -45,63 +70,54 @@ h3 {
   padding-top: 20px;
 }
 
-* {
-  box-sizing:border-box
-}
-h2 {
-  text-align: center;
-}
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-/* hide slider */
-.mySlides {
-    display: none;
-}
-/* caption customize */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
+  background-color: #F65E54;
+  color: white;
   text-align: center;
+  font-size: 15px;
 }
 
-/* slide-changer customize */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-/* when hover, active changes background-color */
-.active, .dot:hover {
-  background-color: #717171;
+.slideheader {
+  background-color: white;
 }
 
-/* more effects */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
-  animation-name: fade;
-  animation-duration: 5s;
+/* .bodycolapse {
+  background-color: white;
+} */
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+.contact {
+  float: right;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px
 }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+.panel-group{
+  width: 75%;
+  float: right;
+  text-align: justify;
+  background-color: white;
+  text-align: justify;
+  padding-right:15px;
+  padding-left:15px;
+  border-radius: 5px;
+}
+
+.background-img{
+  background-image:url("../images/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 19px;
+  height: 1100px;
 }
