@@ -1,0 +1,18 @@
+header {
+ text-align: center;
+}
+
+body,html {
+  background-color: white;
+  font-family: arial;
+}
+
+.background-img{
+  background-image:url("../images/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 19px;
+  height: 3800px;
+}
