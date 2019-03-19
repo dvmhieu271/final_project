@@ -37,6 +37,7 @@ li a:hover {
   padding: 20px;
 
 }
+
 a:hover{
   text-decoration: none;
 }
@@ -47,6 +48,10 @@ a:hover{
 
 .carousel:hover .carousel-control {
   visibility: visible;
+}
+
+.intro{
+   font-family: fantasy;
 }
 
 /* div#accordion {
@@ -83,13 +88,14 @@ footer {
 
 .slideheader {
   background-color: white;
+  height: 520px;
 }
 
 /* .bodycolapse {
   background-color: white;
 } */
 
-.footer {
+.footer-text {
   padding-top: 5px;
   padding-bottom: 15px;
 }
