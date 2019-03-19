@@ -88,6 +88,10 @@ footer {
   height: 3800px;
 }
 
+.intro{
+   font-family: fantasy;
+}
+
 .slideheader {
   background-color: white;
   height: 520px;
